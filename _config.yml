@@ -175,12 +175,12 @@ sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
     img: /public/image/icon.jpg # 头像的地址
-    info: <br/>Evil Wind Studio<br/>妖风工作室 # 头像背后的信息
-  description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"></iframe>'
+    info: <br/><br/><br/>Evil Wind Studio<br/>妖风工作室 # 头像背后的信息
+  # description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"></iframe>'
   social:
-  - title: rss
-    href: /atom.xml
-    class: 'fas fa-rss fa-fw'
+  # - title: rss
+  #   href: /atom.xml
+  #   class: 'fas fa-rss fa-fw'
   - title: evilwindstudio@163.com # email
     href: mailto:evilwindstudio@163.com
     class: 'fas fa-envelope fa-fw'
@@ -240,7 +240,7 @@ sidebar:
   run_time:
     enable: true
     src: /public/js/run_time.js
-    start_time: '15/02/2019 12:12:12' # 起始时间
+    start_time: '02/15/2019 12:12:12' # 起始时间
     alert: <i class="fas fa-cog fa-spin fa-fw"></i>
     day: 天
     hour: 时
