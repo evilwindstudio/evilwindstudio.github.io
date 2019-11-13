@@ -67,13 +67,13 @@ head: # 删改前确定知道自己在做什么
   - key: rel
     value: apple-touch-icon-precomposed
   - key: href
-    value: /public/image/icon.jpg
+    value: /public/image/icon.png
 - tag: link # 小图标，同上
   var:
   - key: rel
     value: 'shortcut icon'
   - key: href
-    value: /public/image/icon.jpg
+    value: /public/image/icon.png
 - tag: link # 下面是博客的css，有些插件的css是单独在插件里引用的，假如需要自己的css可以仿照去加在后面。无脑cdn加速了。
   var:
   - key: rel
@@ -174,8 +174,8 @@ PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己
 sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
-    img: /public/image/icon.jpg # 头像的地址
-    info: <br/><br/><br/>Evil Wind Studio<br/>妖风工作室 # 头像背后的信息
+    img: /public/image/icon.png # 头像的地址
+    info: <br/><br/>Evilwind Studio<br/>妖风工作室 # 头像背后的信息
   # description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"></iframe>'
   social:
   # - title: rss
@@ -225,12 +225,12 @@ sidebar:
   busuanzi:
     enable: true
     src: //cdn.jsdelivr.net/npm/busuanzi/bsz.pure.mini.js
-    # page_pv: # 页面访问量
-    #   alert: <i class="fas fa-eye fa-fw"></i>
-    #   unit: 次页面访问
+    page_pv: # 页面访问量
+      alert: <i class="fas fa-eye fa-fw"></i>
+      unit: 次页面访问
     site_pv: # 站点访问量
       alert: <i class="fas fa-paw fa-fw"></i>
-      unit: 次点击
+      unit: 次站点访问
     site_uv: # 访客量
       alert: <i class="fas fa-user-friends fa-fw"></i>
       unit: 人来过
@@ -268,7 +268,7 @@ post:
     visitor: # 需要开启valine的visitor选项使之开始计数; 可能会和busuanzi统计的有出入
       enable: true
       unit: 次
-    copyright: '本文为EVILWIND STUDIO版权所有 未经许可不得以任何方式使用' #'<i class="fab fa-creative-commons"></i> <a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）'
+    copyright: '<i class="fab fa-creative-commons"></i> EVILWIND STUDIO 版权所有 未经许可不得以任何方式使用' #'<i class="fab fa-creative-commons"></i> <a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）'
   related:
     enable: false
     title: 相关博文
