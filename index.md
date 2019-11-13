@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Evilwind Studio
+title: EVILWIND STUDIO
 ---
 ## 近期
 
