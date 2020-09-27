@@ -2,6 +2,9 @@
 layout: page
 title: EVILWIND STUDIO
 ---
+
+<a href="https://store.steampowered.com/app/1249060/996/">![mycompany996](/public/image/last_supper.jpg)</a>
+
 ## 近期
 
 {% for post in site.posts limit:5 %}

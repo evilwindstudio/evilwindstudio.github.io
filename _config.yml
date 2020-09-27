@@ -5,7 +5,7 @@ kramdown:
 permalink: /posts/:categories/:title # 博文目录
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 
-title: EvilWindStudio
+title: 妖风工作室
 url: http://evilwindstudio.github.io
 author: Evilwind Studio
 
@@ -190,10 +190,10 @@ sidebar:
   # - title: WuK # vjudge
   #   href: //vjudge.net/user/WuK
   #   class: 'fas fa-smile fa-fw'
-  # - title: 942759535 # qq
-  #   class: 'fab fa-qq fa-fw'
-  # - title: Wu-_-Kan # weixin
-  #   class: 'fab fa-weixin fa-fw'
+  - title: 2024560063 # qq
+    class: 'fab fa-qq fa-fw'
+  - title: evilwindstudio # weixin
+    class: 'fab fa-weixin fa-fw'
   - title: github
     href: //github.com/evilwindstudio
     class: 'fab fa-github fa-fw'
